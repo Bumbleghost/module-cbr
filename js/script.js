@@ -109,12 +109,27 @@ const questions = [
     ]
   },
   {
-    question: 'Na hoeveel jaar moet een hybride auto voor het eerst APK gekeurd worden?',
+    question: 'Moeten taxichauffeurs ook een autogordel dragen?',
     answers: [
-      { text: '6 jaar', correct: false },
-      { text: '2 jaar', correct: false },
-      { text: '4 jaar', correct: true },
-      { text: '5 jaar', correct: false },
+      { text: 'NEE', correct: false },
+      { text: 'MISCHIEN', correct: false },
+      { text: 'JA', correct: true },
+    ]
+  },
+  {
+    question: 'Is anticiperen over het algemeen voordelig voor het brandstofverbruik?',
+    answers: [
+      { text: 'NEE', correct: false },
+      { text: 'JA', correct: true },
+      { text: 'MISCHIEN', correct: false },
+    ]
+  },
+  {
+    question: 'Hoeveel alcohol is maximaal toegestaan bij een beginnend bestuurder',
+    answers: [
+      { text: '0,1 promille', correct: false },
+      { text: '0,2 promille', correct: true },
+      { text: '0,5 promille', correct: false },
     ]
   }
 ]
