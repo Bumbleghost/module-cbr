@@ -79,35 +79,42 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'Is iemand die naast zijn motorfiets loopt een bestuurder?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Nee', correct: true }, 
+      { text: 'JA', correct: false },
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: '"Wanneer valt een gehandicaptenvoertuig onder de regels van een voetganger?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Wanneer deze zich op de stoep of voetpad bevindt', correct: true },
+      { text: 'Wanneer deze zich op de weg bevindt', correct: false },
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'De aanhanger is 3 meter lang. De ondeelbare lading is gemarkeerd met dit bord en steekt 1,20 meter uit. Mag dit?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'NEE', correct: false },
+      { text: 'JA!', correct: true },
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Na hoeveel jaar moet een hybride auto voor het eerst APK gekeurd worden?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: '6 jaar', correct: false },
+      { text: '2 jaar', correct: false },
+      { text: '4 jaar', correct: true },
+      { text: '5 jaar', correct: false },
+    ]
+  },
+  {
+    question: 'Na hoeveel jaar moet een hybride auto voor het eerst APK gekeurd worden?',
+    answers: [
+      { text: '6 jaar', correct: false },
+      { text: '2 jaar', correct: false },
+      { text: '4 jaar', correct: true },
+      { text: '5 jaar', correct: false },
     ]
   }
 ]
