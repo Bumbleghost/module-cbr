@@ -1,8 +1,8 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Gotham Rounded;
+    font-family: monospace;
   }
-  
+
   :root {
     --hue-neutral: 200;
     --hue-wrong: 0;
@@ -14,14 +14,20 @@
     --hue: var(--hue-background);
     padding: 0;
     margin: 0;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
     background-color: hsl(var(--hue), 100%, 20%);
+    font-size: 2rem;
   }
-  
+
+  header{
+    display: flex;
+    justify-content: center;
+  }
+
+  header img{
+    height: 50px;
+    width: auto;
+  }
+
   body.correct {
     --hue: var(--hue-correct);
   }
@@ -29,6 +35,12 @@
   body.wrong {
     --hue: var(--hue-wrong);
   }
+
+  #container{
+    display: flex;
+    justify-content: center;
+  }
+
   .container {
     width: 800px;
     max-width: 80%;
@@ -36,6 +48,9 @@
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
+    font-size: 2rem;
+    margin: 50px 10px;
+    justify-content: center;
   }
   
   .btn-grid {
@@ -46,6 +61,7 @@
   }
   
   .btn {
+    font-size: 2rem;
     --hue: var(--hue-neutral);
     border: 1px solid hsl(var(--hue), 100%, 30%);
     background-color: hsl(var(--hue), 100%, 50%);
@@ -69,7 +85,7 @@
   }
   
   .start-btn, .next-btn {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     padding: 10px 20px;
   }
