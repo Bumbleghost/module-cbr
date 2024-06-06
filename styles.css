@@ -7,10 +7,11 @@
     --hue-neutral: 200;
     --hue-wrong: 0;
     --hue-correct: 145;
+    --hue-background: transparent;
   }
   
   body {
-    --hue: var(--hue-neutral);
+    --hue: var(--hue-background);
     padding: 0;
     margin: 0;
     display: flex;
@@ -28,7 +29,6 @@
   body.wrong {
     --hue: var(--hue-wrong);
   }
-  
   .container {
     width: 800px;
     max-width: 80%;
@@ -61,7 +61,7 @@
   
   .btn.correct {
     --hue: var(--hue-correct);
-    color: black;
+    color: rgb(0, 0, 0);
   }
   
   .btn.wrong {
